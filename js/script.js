@@ -1,4 +1,7 @@
 (() => {
+  const copyrightYear = document.getElementById('copyrightYear');
+  if (copyrightYear) copyrightYear.textContent = new Date().getFullYear();
+
   // Mobile nav toggle
   const navToggle = document.getElementById('navToggle');
   const mainNav = document.getElementById('mainNav');
